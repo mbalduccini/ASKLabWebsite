@@ -602,3 +602,8 @@ body{
     text-align: center;
     margin-top: 5%;
 }
+
+#groupImage{
+        width: 50%;
+        height: auto;
+}
