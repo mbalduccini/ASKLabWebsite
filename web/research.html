@@ -21,6 +21,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="/js/map.js"></script>
+
 </head>
     
 <body>
@@ -148,11 +150,15 @@
 
     <footer id="myFooter">
         <div class="container">
+		<div id="map_wrapper">
+		    <div id="map_canvas" class="mapping"></div>
+		</div>   
             <!-- Here we use the Google Embed API to show Google Maps. -->
             <!-- In order for this to work in your project you will need to generate a unique API key.  -->
-            <iframe id="map-container" frameborder="0" style="border:0"
+            <!-- <iframe id="map-container" frameborder="0" style="border:0"
                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm1S6aU7GxokR76YMJ-CxR98&key=AIzaSyDhzZdXoORtrtHgddjkktZMjBu4PTJq2O4" >
             </iframe>
+	    -->
         </div>
         <div class="footer-copyright">
             <p>© 2017 ASK Lab </p>

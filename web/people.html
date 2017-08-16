@@ -21,6 +21,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="/js/map.js"></script>
+
 </head>
     
 <body>
@@ -310,7 +312,9 @@
                             <h2>Marcello Balduccini</h2>
                             <hr class="star-primary">
                             <img src="/img/People/Marcello.png" class="img-responsive img-centered" style="max-width: 300px;" alt="">
-                            <p>Dr. Balduccini's fundamental research interests are focused on knowledge representation &amp; reasoning, including ontologies, agent architectures, commonsense, natural language understanding, and constraint satisfaction. Application domains of interest include decision-making/decision-support systems, cyber-security and cyber-physical systems, cognitive robotics, intelligent unmanned vehicles, behavior modeling, and model-based user interfaces. He is affiliated with the <a href="/iexe/">AJ Drexel Institute for Energy and the Environment</a> and the <a href="http://drexel.edu/cci/research/centers-institutes/Cybersecurity/">Isaac L. Auerbach Cybersecurity Institute</a>. Prior to joining Drexel, Dr. Balduccini served as principal research scientist at Kodak Research Labs, Eastman Kodak Company for six years. Dr. Balduccini has authored or co-authored more than 50 refereed technical publications, including three book chapters, and has edited two volumes.</p>
+                            <p>Dr. Balduccini is an Assistant Professor at the Department of Decision &amp; System Sciences of Saint Joseph's University's Erivan K. Haub School of Business. His fundamental research interests are focused on knowledge representation &amp; reasoning, including ontologies, agent architectures, commonsense, natural language understanding, and constraint satisfaction. Application domains of interest include decision-making/decision-support systems, cyber-security and cyber-physical systems, cognitive robotics, intelligent unmanned vehicles, behavior modeling, and model-based user interfaces. 
+<!-- He is affiliated with the <a href="/iexe/">AJ Drexel Institute for Energy and the Environment</a> and the <a href="http://drexel.edu/cci/research/centers-institutes/Cybersecurity/">Isaac L. Auerbach Cybersecurity Institute</a>. -->
+Prior to joining Saint Joseph's University, Dr. Balduccini was an Assistant Research Professor at Drexel University and, before that, served as Principal Research Scientist at Kodak Research Labs, Eastman Kodak Company. Dr. Balduccini has authored or co-authored more than 80 refereed technical publications.</p>
 
                             
                             <ul class="list-inline item-details">
@@ -763,15 +767,18 @@
         </div>
     </div>
     
-    
 
     <footer id="myFooter">
         <div class="container">
+		<div id="map_wrapper">
+		    <div id="map_canvas" class="mapping"></div>
+		</div>   
             <!-- Here we use the Google Embed API to show Google Maps. -->
-            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
-            <iframe id="map-container" frameborder="0" style="border:0"
+            <!-- In order for this to work in your project you will need to generate a unique API 4.  -->
+            <!-- <iframe id="map-container" frameborder="0" style="border:0"
                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm1S6aU7GxokR76YMJ-CxR98&key=AIzaSyDhzZdXoORtrtHgddjkktZMjBu4PTJq2O4" >
             </iframe>
+	    -->
         </div>
         <div class="footer-copyright">
             <p>© 2017 ASK Lab </p>
