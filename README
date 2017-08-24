@@ -1,11 +1,16 @@
-Welcome! 
+Welcome from the Autonomy Security & Knowledge Lab
+===================================================
 
-This is the ASK Lab website. This website is used to showcase the the research and researchers at the ASK Lab. 
+This is the Autonomy Security & Knowledge Lab website. It's purpose is to demonstrate research contributions of people working at the ASK lab. 
 
-This website is made primarily with HTML5, CSS3, and Javascript. There are no dependencies necessary to get this website working on your local machine as well! 
+# Code Details: #
 
+* The code comprises mainly of HTML5, CSS3, and Javascript. 
+* The code is independent of any additional dependcies and can be run locally on any machine.
 
-Please follow the instructions below to get this website to up and running on your local machine: 
+# Set-up Instructions: #
+
+You can follow the instructions below to get this website to up and running on your local machine: 
 
 1) Email guptadit25@gmail.com to get permission to be added onto the private github repository: https://github.com/AditGupta25/ASKLabWebsite
 
@@ -17,8 +22,7 @@ Please follow the instructions below to get this website to up and running on yo
         
         B) Click on the green "cloan or download" button on the on the page (https://github.com/AditGupta25/ASKLabWebsite), and then click on the "Download ZIP".
         
-        
-Running the project: 
+# Run time Instructions: # 
 
-It is recomended that you use Brackets to run this project. Brackets can be downloaded at: http://brackets.io/ 
-Upon download, please click on "Open Project" and select the downloaded folder from github. 
+* It is recomended that you use Brackets to run this project. Brackets can be downloaded at: http://brackets.io/ 
+* Upon download, please click on "Open Project" and select the downloaded folder from github. 
