@@ -24,5 +24,5 @@ You can follow the instructions below to get this website to up and running on y
         
 ## Run time Instructions ##
 
-* It is recomended that you use Brackets to run this project. Brackets can be downloaded at: http://brackets.io/ 
+* It is recommended that you use Brackets to run this project. Brackets can be downloaded at: http://brackets.io/ 
 * Upon download, please click on "Open Project" and select the downloaded folder from github. 
