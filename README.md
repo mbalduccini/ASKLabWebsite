@@ -6,7 +6,7 @@ This is the Autonomy Security & Knowledge Lab website. It's purpose is to demons
 ## Code Details ##
 
 * The code comprises mainly of HTML5, CSS3, and Javascript. 
-* The code is independent of any additional dependcies and can be run locally on any machine.
+* The code is independent of additional dependencies and can be run locally on any machine.
 
 ## Set-up Instructions ##
 
