@@ -1,4 +1,4 @@
-Welcome from the (http://www.asklab.tk/ "Autonomy Security & Knowledge Lab")
+Welcome from the ["Autonomy Security & Knowledge Lab](http://www.asklab.tk/)
 ==================================================
 
 This is the Autonomy Security & Knowledge Lab website. It's purpose is to demonstrate research contributions of people working at the ASK lab. 
