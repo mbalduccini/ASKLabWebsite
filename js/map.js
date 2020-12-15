@@ -22,7 +22,7 @@ function initialize() {
     var markers = [
 //        ['London Eye, London', 51.503454,-0.119562],
 //        ['Palace of Westminster, London', 51.499633,-0.124755]
-        ['Drexel University', 39.9566127,-75.1921381],
+//        ['Drexel University', 39.9566127,-75.1921381],
         ['Saint Joseph\'s University', 39.9946873,-75.2438292]
     ];
                         
@@ -35,8 +35,8 @@ function initialize() {
 //        '<h3>Palace of Westminster</h3>' +
 //        '<p>The Palace of Westminster is the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom. Commonly known as the Houses of Parliament after its tenants.</p>' +
 //        '</div>']
-        ['<div class="info_content">' +
-        '<h3>Drexel University</h3><p>3141 Chestnut St, Philadelphia, PA 19104</p></div>'],
+//        ['<div class="info_content">' +
+//        '<h3>Drexel University</h3><p>3141 Chestnut St, Philadelphia, PA 19104</p></div>'],
         ['<div class="info_content">' +
         '<h3>Saint Joseph\'s University</h3><p>5600 City Ave, Philadelphia, PA 19131</p></div>']
     ];
@@ -67,9 +67,9 @@ function initialize() {
     }
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
-//    var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-//        this.setZoom(13);
-//        google.maps.event.removeListener(boundsListener);
-//    });
+    var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
+        this.setZoom(13);
+        google.maps.event.removeListener(boundsListener);
+    });
     
 }
